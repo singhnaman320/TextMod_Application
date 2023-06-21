@@ -1,6 +1,5 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link } from 'react-router-dom';
 
 
 export default function Navbar(props) {   // using props here and giving it a value at the place of importing
@@ -15,10 +14,10 @@ export default function Navbar(props) {   // using props here and giving it a va
         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
           <li className="nav-item">
             {/* To route to given Link use <link/> in plave of <a> and "to" in place of "href"*/}
-            <Link className="nav-link active" aria-current="page" to={'/'}>Home</Link>
+            <a className="nav-link active" aria-current="page" href="/">Home</a>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to={'/about'}>{props.aboutText}</Link>
+            <a className="nav-link" href="/">{props.aboutText}</a>
           </li>
         </ul>
         <form className="d-flex" role="search">
@@ -36,7 +35,7 @@ export default function Navbar(props) {   // using props here and giving it a va
 </nav>
 
   )
-  
+
 }
 
 // Check for title, aboutText must be string. If any other datatype provided in place of string then an error will be shown to you.
