@@ -60,8 +60,8 @@ function App() {
       <Alert presentAlert = {alert}/>
       <div className="container my-3">
         <TextForm showingAlert={showAlert} heading="Enter the text to analyze below:" presentMode = {mode}></TextForm>
+        {/* <About/> */}
       </div>
-      {/* <About/> */}
     </>
   );
 }
