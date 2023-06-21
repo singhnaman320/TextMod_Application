@@ -36,6 +36,7 @@ export default function Navbar(props) {   // using props here and giving it a va
 </nav>
 
   )
+  
 }
 
 // Check for title, aboutText must be string. If any other datatype provided in place of string then an error will be shown to you.
