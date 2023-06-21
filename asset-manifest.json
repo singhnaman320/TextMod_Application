@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/TextMod_Application/textmod_app/static/css/main.c9773598.css",
-    "main.js": "/TextMod_Application/textmod_app/static/js/main.7ab39791.js",
-    "static/js/787.2c7d79fc.chunk.js": "/TextMod_Application/textmod_app/static/js/787.2c7d79fc.chunk.js",
-    "static/media/logo.svg": "/TextMod_Application/textmod_app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/TextMod_Application/textmod_app/index.html",
-    "main.c9773598.css.map": "/TextMod_Application/textmod_app/static/css/main.c9773598.css.map",
-    "main.7ab39791.js.map": "/TextMod_Application/textmod_app/static/js/main.7ab39791.js.map",
-    "787.2c7d79fc.chunk.js.map": "/TextMod_Application/textmod_app/static/js/787.2c7d79fc.chunk.js.map"
+    "main.css": "/TextMod_Application/static/css/main.c9773598.css",
+    "main.js": "/TextMod_Application/static/js/main.75f35f9f.js",
+    "static/js/787.2c7d79fc.chunk.js": "/TextMod_Application/static/js/787.2c7d79fc.chunk.js",
+    "static/media/logo.svg": "/TextMod_Application/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/TextMod_Application/index.html",
+    "main.c9773598.css.map": "/TextMod_Application/static/css/main.c9773598.css.map",
+    "main.75f35f9f.js.map": "/TextMod_Application/static/js/main.75f35f9f.js.map",
+    "787.2c7d79fc.chunk.js.map": "/TextMod_Application/static/js/787.2c7d79fc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9773598.css",
-    "static/js/main.7ab39791.js"
+    "static/js/main.75f35f9f.js"
   ]
 }
