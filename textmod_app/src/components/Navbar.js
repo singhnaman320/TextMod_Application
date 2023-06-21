@@ -16,14 +16,14 @@ export default function Navbar(props) {   // using props here and giving it a va
             {/* To route to given Link use <link/> in plave of <a> and "to" in place of "href"*/}
             <a className="nav-link active" aria-current="page" href="/">Home</a>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <a className="nav-link" href="/">{props.aboutText}</a>
-          </li>
+          </li> */}
         </ul>
-        <form className="d-flex" role="search">
+        {/* <form className="d-flex" role="search">
           <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
           <button className="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        </form> */}
         {/* For DarkMode and LightMode */}
         {/* text-primary is css to changle text color to blue */}
         <div className={`form-check form-switch mx-3 text-${props.presentMode==='light'?'dark':'light'}`}>
