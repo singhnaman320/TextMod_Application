@@ -56,7 +56,8 @@ function App() {
     // Importing Navbar and TextForm from components
     // my-3 used in bootstrap to give margin on y-axis by 3
     <>
-      <Navbar title="TextMod" aboutText="About" presentMode = {mode} toggleMode = {toggleMode}></Navbar> 
+    {/* For about section put: aboutText="About" in <Navbar/> and make changes in about*/}
+      <Navbar title="TextMod" presentMode = {mode} toggleMode = {toggleMode}></Navbar> 
       <Alert presentAlert = {alert}/>
       <div className="container my-3">
         <TextForm showingAlert={showAlert} heading="Enter the text to analyze below:" presentMode = {mode}></TextForm>
