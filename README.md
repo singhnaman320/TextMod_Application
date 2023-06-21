@@ -10,6 +10,6 @@ This repository deals with the code base of TextMod, a react application where y
 <hr/>
 
 <h2>[] Deployed Link :<h2/>
-<h3>https://singhnaman320.github.io/TextMod_Application/<h3/>
+https://singhnaman320.github.io/TextMod_Application/
 
 <hr/>
